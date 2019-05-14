@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/mobile_navigation.xml"
+            app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment"
+              android:name="net.playgorund.exoplayerplayground.ui.home.HomeFragment"
+              android:label="home_fragment"
+              tools:layout="@layout/home_fragment">
+        <action android:id="@+id/action_homeFragment_to_playerFragment"
+                app:destination="@id/playerFragment"
+                app:popUpTo="@id/homeFragment" app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+                app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <argument android:name="extra_item" app:argType="net.playgorund.exoplayerplayground.data.model.ApiVideo"/>
+    </fragment>
+    <fragment android:id="@+id/playerFragment"
+              android:name="net.playgorund.exoplayerplayground.ui.player.PlayerFragment" android:label="player_fragment"
+              tools:layout="@layout/player_fragment"/>
+</navigation>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.twistedequations.rx2:rx2-android-schedulers:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/497ee5a652e65daa22df425822e75bdd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/497ee5a652e65daa22df425822e75bdd/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twistedequations.rx2/rx2-android-schedulers/2.0.0/d55baff55acc02a65c29431db75352db7e56ac38/rx2-android-schedulers-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
